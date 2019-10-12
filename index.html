@@ -2,39 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>To Do Application</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="todoapp.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="todoapp.css" />
 </head>
 
 <body>
     <h1>To Do Application</h1>
     <h2>Tasks</h2>
     <label for="Add Task">
-    <div class="input-group">
+      <div class="input-group">
         <div class="input-group-prepend">
-            <span class="input-group-text">To Do Task</span>
+          <span class="input-group-text">To Do Task</span>
         </div>
         <textarea class="form-control" aria-label="With textarea"></textarea>
-    </div>
-</label>
+      </div>
+    </label>
     <!--Add submit button-->
+    <button type="button" class="btn btn-success">Add Task</button>
     <ul class="list-group">
         <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+    <button type="button" class="btn btn-success">Complete</button>
+    <button type="button" class="btn btn-danger">Delete</button>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <button type="button" class="btn btn-success">Complete</button>
+    <button type="button" class="btn btn-danger">Delete</button>
+    <li class="list-group-item">Morbi leo risus</li>
+    <button type="button" class="btn btn-success">Complete</button>
+    <button type="button" class="btn btn-danger">Delete</button>
+    <li class="list-group-item">Porta ac consectetur ac</li>
+    <button type="button" class="btn btn-success">Complete</button>
+    <button type="button" class="btn btn-danger">Delete</button>
+    <li class="list-group-item">Vestibulum at eros</li>
     </ul>
     <!-- insert buttons to submit or delete -->
+    <button type="button" class="btn btn-success">Complete</button>
+    <button type="button" class="btn btn-danger">Delete</button>
     <h2>Completed</h2>
     <!-- Work that has been completed should transfer here to show accomplishments-->
-
     <ul class="list-group">
-        <li class="list-group-item disabled" aria-disabled="true">Cras justo odio</li>
+        <li class="list-group-item disabled" aria-disabled="true">
+            Cras justo odio
+        </li>
         <li class="list-group-item disabled">Dapibus ac facilisis in</li>
         <li class="list-group-item disabled">Morbi leo risus</li>
         <li class="list-group-item disabled">Porta ac consectetur ac</li>
