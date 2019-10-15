@@ -1,0 +1,7 @@
+Input new task and have submit button 
+
+Have list of tasks which can be completed or deleted
+    Have a countdown of how many tasks are left to complete
+
+when task is completed it is filtered to final table which lists completed tasks
+
